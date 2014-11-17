@@ -45,9 +45,10 @@
         <div class="col-md-4">
           <h2>What is a challenge?</h2>
           <p>A data-driven challenge is a problem with well-defined inputs and
-          outputs to which competitors can submit results and/or the code to
-          produce results to be automatically scored against a set of known
-          "true" results. The submission closest to the true results wins!</p>
+	  outputs to which competitors can submit results that are then scored
+	  against a known ground-truth and ranked.  Kitware's challenge platform
+	  allows outputs or code that produces outputs to be submitted, and will
+	  automatically score the result submissions.
           <p><a class="btn btn-default" href="#what" role="button">View details &raquo;</a></p>
         </div>
         <div class="col-md-4">
@@ -57,14 +58,14 @@
             problems, it becomes ever more important to run the latest and
             greatest algorithms on <i>real-world data</i>. When designed
             properly, challenges can show you how state-of-the-art methods work
-            on the data you care about rather than with toy, synthetic, or
-            sample data.
+	    on data that is much more representational of the problem domain at large,
+	    rather than with toy, synthetic, or sample data.
           <p><a class="btn btn-default" href="#why" role="button">View details &raquo;</a></p>
        </div>
         <div class="col-md-4">
           <h2>How does this work?</h2>
           <p>Kitware and our academic and industry partners have combined
-          decades of High-Performance Computing experience with our modern data
+          decades of High-Performance Computing and medical imaging experience with our modern data
           and analytics framework, TangeloHub, to produce a platform for
           hosting data-driven challenges.</p>
           <p><a class="btn btn-default" href="#how" role="button">View details &raquo;</a></p>
@@ -134,11 +135,13 @@
             method for on your data. Businesses spend millions in research and
             development budgets in attempts to rework published methods on
             their specific data. We think there's a better way.</p>
-          <p>Data-driven challenges connect stakeholders with immediate, real
+          <p>Data-driven challenges connect stakeholders who have immediate, real
             problems with communities of algorithm developers eager to prove
             their methods' generality and applicability to new domains. Bringing
-            these two complimentary groups in an automated web-based system
-            enhances reproducibility and will save time and money.</p>
+            these two complimentary groups together with an automated web-based system
+	    enhances reproducibility and will save time and money.  Stakeholders can
+	    see how the methods compare to each other for datasets of interest, and
+	    algorithm developers have a platform that empowers improvements in their methods.</p>
         </div>
       </div>
 
@@ -149,9 +152,8 @@
           <h2 id="how">How does this work?</h2>
           <p>The COVALIC system is built on the TangeloHub platform--an open
             source data and analytics platform made up of three major components:
-            <a>Tangelo</a>, <a>Girder</a>, and <a>Romanesco</a>. To oversimplify
-            things, data is submitted to Girder, processed with Romanesco, and
-            visualized using Tangelo.</p>
+            <a>Tangelo</a>, <a>Girder</a>, and <a>Romanesco</a>. A simplified explanation is that 
+            data is submitted to Girder, processed with Romanesco, and visualized using Tangelo.</p>
           <p>For more detailed information, <a>check this out</a>.
         </div>
         <div class="col-md-4">

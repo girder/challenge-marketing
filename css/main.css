@@ -33,3 +33,9 @@
     width: 100%;
     height: 100%;
 }
+
+.page-title {
+    font-family: "Source Sans Pro",Calibri,Candara,Arial,sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
